@@ -1,0 +1,48 @@
+.header {
+  margin-top: 100px;
+}
+
+.header .container {
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header .bintang img {
+  width: 100px;
+}
+
+.header .langganan {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .header h4,
+  .header p {
+    font-size: 2.5vw;
+  }
+
+  .header button {
+    font-size: 2vw;
+    margin-top: -30px;
+  }
+
+  .header .gambar {
+    margin-bottom: 10px;
+  }
+}
+
+.rekomendasi {
+  margin-top: 30px;
+}
+
+.rekomendasi .container {
+  padding-top: 15px;
+  background-color: white;
+}
+
+.rekomendasi a {
+  text-decoration: none;
+  color: black;
+}

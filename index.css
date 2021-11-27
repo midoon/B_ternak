@@ -36,3 +36,8 @@
   padding-top: 35px;
   padding-bottom: 40px;
 }
+
+.card-produk a {
+  text-decoration: none;
+  color: black;
+}
