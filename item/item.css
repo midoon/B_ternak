@@ -31,6 +31,25 @@
   .header .gambar {
     margin-bottom: 10px;
   }
+
+  .review h6,
+  .review p {
+    font-size: 2.5vw;
+  }
+
+  .review .bintang img {
+    width: 30px;
+    margin-top: -25px;
+  }
+
+  .review svg {
+    width: 20px;
+    margin-left: 20px;
+  }
+
+  .review .tombol {
+    margin-top: 10px;
+  }
 }
 
 .rekomendasi {
@@ -45,4 +64,29 @@
 .rekomendasi a {
   text-decoration: none;
   color: black;
+}
+
+.review {
+  margin-top: 30px;
+}
+
+.review .container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: white;
+}
+
+.review button {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.review img {
+  width: 70px;
+  margin-top: -20px;
+}
+
+.review .ikon {
+  display: flex;
+  align-items: center;
 }
